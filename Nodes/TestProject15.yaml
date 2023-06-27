@@ -1,43 +1,54 @@
 Name: TestProject15
+Id: g=004d8a35335fd1cb943f2410b245797e
 Type: ProjectFolder
 Children:
 - Name: Localization
+  Id: g=946cdb14a2171bdc8d19f11c2726c1ef
   Type: PropertyGroup
   Children:
   - Name: Locales
+    Id: g=1ac1f6feeb2a28158e9a902b0ddf2655
     Type: PropertyType
     DataType: String
     ValueRank: OneDimension
     ArrayDimensions: [0]
     Value: ["en-US"]
   - Name: LocaleFallbackList
+    Id: g=07edc5df62b2b1db311c93eb45ffddf9
     Type: PropertyType
     DataType: String
     ValueRank: OneDimension
     ArrayDimensions: [0]
     Value: ["en-US"]
 - Name: Authentication
+  Id: g=d9efa987d66e97a5e233c9f7c9a388f4
   Type: PropertyGroup
 - Name: PasswordPolicy
+  Id: g=6c0f16b8687260a96ad0af7072c68059
   Type: PasswordPolicy
   Children:
   - Name: MaximumPasswordAge
+    Id: g=c5f41607dfca5259203131f0c77eddfb
     Type: PropertyType
     DataType: UInt16
     Value: 0
   - Name: EnforcePasswordHistory
+    Id: g=873ebe34d845d2de0f6d53676b6f0efa
     Type: PropertyType
     DataType: Byte
     Value: 1
   - Name: MinimumPasswordAge
+    Id: g=7ee63ce60e43b1ecd80ecd3868872825
     Type: PropertyType
     DataType: UInt16
     Value: 0
   - Name: MinimumPasswordLength
+    Id: g=4eb4a1e68ebb513e30cc99a28ec405f2
     Type: PropertyType
     DataType: Byte
     Value: 8
 - Name: AlarmConfiguration
+  Id: g=c0ca341a231deaf8677e8f993f26c5b5
   Type: PropertyGroup
 - File: UI/UI.yaml
 - File: Model/Model.yaml

@@ -1,54 +1,54 @@
 Name: TestProject15
-Id: g=d38e082654cdb5dd91196e073a0127e7
+Id: g=004d8a35335fd1cb943f2410b245797e
 Type: ProjectFolder
 Children:
 - Name: Localization
-  Id: g=75fcaa7e2518f06251255b0f361c4ed0
+  Id: g=946cdb14a2171bdc8d19f11c2726c1ef
   Type: PropertyGroup
   Children:
   - Name: Locales
-    Id: g=c1a4d92d311a08ccf1ce7d734a1cb9b8
+    Id: g=1ac1f6feeb2a28158e9a902b0ddf2655
     Type: PropertyType
     DataType: String
     ValueRank: OneDimension
     ArrayDimensions: [0]
     Value: ["en-US"]
   - Name: LocaleFallbackList
-    Id: g=e7ab77968e4b65c451e98775c715fa3c
+    Id: g=07edc5df62b2b1db311c93eb45ffddf9
     Type: PropertyType
     DataType: String
     ValueRank: OneDimension
     ArrayDimensions: [0]
     Value: ["en-US"]
 - Name: Authentication
-  Id: g=6d02e4ddb765a959e8081e87bc7426f0
+  Id: g=d9efa987d66e97a5e233c9f7c9a388f4
   Type: PropertyGroup
 - Name: PasswordPolicy
-  Id: g=970b02aa076000a4c934b001d2b93ecc
+  Id: g=6c0f16b8687260a96ad0af7072c68059
   Type: PasswordPolicy
   Children:
   - Name: MaximumPasswordAge
-    Id: g=e697263ff3f16f1db95d68ea87c15fcc
+    Id: g=c5f41607dfca5259203131f0c77eddfb
     Type: PropertyType
     DataType: UInt16
     Value: 0
   - Name: EnforcePasswordHistory
-    Id: g=f8619e43563336e375a6893f575df69f
+    Id: g=873ebe34d845d2de0f6d53676b6f0efa
     Type: PropertyType
     DataType: Byte
     Value: 1
   - Name: MinimumPasswordAge
-    Id: g=7f8e28c6bd528c2c6aa146e0cc74816a
+    Id: g=7ee63ce60e43b1ecd80ecd3868872825
     Type: PropertyType
     DataType: UInt16
     Value: 0
   - Name: MinimumPasswordLength
-    Id: g=28c91facaedb3c9f25749f480e317901
+    Id: g=4eb4a1e68ebb513e30cc99a28ec405f2
     Type: PropertyType
     DataType: Byte
     Value: 8
 - Name: AlarmConfiguration
-  Id: g=c133305075726e40c5ffd63f5bacfb37
+  Id: g=c0ca341a231deaf8677e8f993f26c5b5
   Type: PropertyGroup
 - File: UI/UI.yaml
 - File: Model/Model.yaml
